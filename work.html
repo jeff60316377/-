@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="favicon.ico">
+    <title>Jumbotron Template for Bootstrap</title>
+    <!-- Bootstrap core CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+    <link href="jumbotron.css" rel="stylesheet">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css"></script>
+  </head>
+
+  <body>
+ 
+  <div style="position:relative;width:267px;height:25px;overflow:hidden;">
+  <div style="position:absolute;top:-276px;left:-5px">
+    <iframe width="500" height="500" 
+      src="https://www.youtube.com/embed/sKKS0j4LdpI?rel=0">
+    </iframe>
+  </div>
+</div>
+    
+<script language="JavaScript">
+<!--
+function java(){
+alert("-歡迎光臨-！");
+}
+function LoadFunctions(){
+java();
+}
+-->
+</script>
+<body onLoad="LoadFunctions()">
+     
+   <body background="https://i.ytimg.com/vi/EKyC5M9pQag/maxresdefault.jpg">
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">ლ(́◕◞౪◟◕‵ლ)專題留言板</a>
+        </div>
+        
+        <!--/.navbar-collapse -->
+      </div>
+    </nav>
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+      <div class="container">
+        
+       </div>
+    </div>
+
+    <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-4">
+        
+        </div>
+        <div class="col-md-4">
+<style>
+input , textarea { width:40%; margin:30; padding:30; }
+a { color:red; text-decoration:underline; }
+</style>
+</head>
+<body>
+<div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">題目</h3>
+            </div>
+            <div class="panel-body">
+              <input type="text" id="title" class="form-control" placeholder="(́◉◞౪◟◉‵)記得要命名" required="" autofocus="">
+            </div>
+          </div>
+<div><textarea class="form-control" rows="5" id="text" placeholder="(*´ω`)人(´ω`*)發表感想吧！！"></textarea></div>
+<button onclick="save()" type="button" class="btn btn-lg btn-warning">( ^ω^)發表</button>
+<div>
+<table id="list">
+</table>
+</div>
+<script>
+var oTitle = document.getElementById("title");
+var oText  = document.getElementById("text");
+var oList = document.getElementById("list");
+
+function save() {
+  var title = oTitle.value;
+  var text  = oText.value;
+  window.localStorage.setItem("notepad:"+title, text);
+  showList();
+}
+
+function showList() {
+  var rowHtml = "";
+  for (var title in window.localStorage) {
+    if (title.startsWith("notepad:")) {
+      rowHtml += "<tr><td><a onclick=\"loadDoc('"+title+"')\">"+title.substring(8)+"</a></td></tr>"
+    }
+  }
+  oList.innerHTML = rowHtml;
+}
+
+function loadDoc(title) {
+  oTitle.value = title.substring(8);
+  oText.value  = window.localStorage.getItem(title);
+}
+
+</script>
+  
+    </div> 
+     </div>
+        <div class="col-md-4">
+        </div>
+        </div>   
+     <footer>
+        <p>&copy; Company 2014</p>
+      </footer>
+    </div> <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  </body>
+</html>
