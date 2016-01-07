@@ -1,0 +1,46 @@
+<html>
+   <head>
+        <meta charset='utf-8'>
+		<title>個人資料</title>
+	<style>
+     #topbar { background-color:black; color:red; padding:10px; margin:10px; }
+     th { background-color:black; color:white; }
+    </style>
+	<img src="https://scontent-tpe1-1.xx.fbcdn.net/hphotos-xlt1/v/t1.0-9/12189887_1271720902854098_5171649601601856540_n.jpg?oh=674b0effa0308ca2a0e4e1a7ca903c8d&oe=570078D8" height="200" width="200">
+	
+	<body>
+	
+	 <body background="http://www.imgbase.info/images/safe-wallpapers/animals/cat/cat_20155.jpg">
+	
+		<div id="topbar"><b>廖俊傑的個人檔案</b></div><br>
+		<a href="https://www.facebook.com/profile.php?id=100000486013186">我的臉書</a><br>
+		<u1>
+		<li>生日：１９９７．０７．１８</li>
+		<li>性別：男</li>
+		<li>血型：o</li>
+		<li>信箱：the,junjie.liao@gmail..com</li>
+		<li>身高：１７８</li>
+		<li>座右銘：不要做出會讓你後悔一輩子的事情</li>
+        <table>
+           <tr><th></th><th>個人興趣</th><th>未來夢想</th></tr>
+           <tr><th></th><td>探索新事物</td><td>世界知名人物</td></td>
+        </table>
+		<footer>
+            <p>2016/01/7</p>
+        </footer>  
+		
+		<script language="JavaScript">
+        <!--
+        function java(){
+        alert("-歡迎光臨我的網頁-！");
+        }
+        function LoadFunctions(){
+        java();
+        }
+        -->
+        </script>
+		
+<body onLoad="LoadFunctions()">  
+	
+	</body>
+</html>		 
